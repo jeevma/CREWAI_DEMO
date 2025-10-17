@@ -25,11 +25,25 @@
 
 Welcome to the comprehensive CrewAI handbook! This guide is your complete resource for mastering CrewAI, a powerful framework for building collaborative AI agent systems. Whether you're a beginner taking your first steps or an experienced developer looking for advanced techniques, this handbook has you covered.
 
+![alt text](images/CrewAIWorkflow.png)
+
 ### What is CrewAI?
 
 CrewAI is a cutting-edge framework that enables you to orchestrate role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks that would be challenging for a single AI agent.
 
-Think of CrewAI as your AI team management system - you define specialized roles, assign specific tasks, provide necessary tools, and orchestrate workflows to achieve complex objectives through intelligent collaboration.
+Think of CrewAI as your AI team management system - you define specialized roles, assign specific tasks, provide necessary tools, and orchestrate workflows to achieve complex objectives through intelligent collaboration. For example:
+
+- Research (data, analysis, summaries)
+- Customer service (routing, troubleshooting, recommendations)
+- Content creation (curate, format, optimize)
+- Document processing (extract, categorize data)
+- Market monitoring (trends, opportunities)
+- Risk assessment (data, predict, mitigate)
+- Personalized learning (paths, feedback, resources)
+
+### How Crew AI is different from LangGraph?
+
+LangGraph empowers you to build agents from scratch with a high degree of configuration and control. This approach offers maximum flexibility for complex needs. CrewAI, built on the same foundation, provides a managed environment for quicker and more efficient agent creation, accelerating your path to production.
 
 ### Key Benefits
 
@@ -105,6 +119,8 @@ print(result)
 ---
 
 ## Core Components
+
+![alt text](images/image.png)
 
 ### Agents
 
@@ -286,6 +302,8 @@ research_task = Task(
 ```
 
 1.4. Processes: The Workflow
+
+![alt text](images/crewaiFlows.png)
 
 A Process defines the workflow for how your agents will execute their assigned tasks. It’s the difference between a chaotic free-for-all and a well-managed assembly line. It tells Agent A to finish their job completely before handing off the results to Agent B.
 
